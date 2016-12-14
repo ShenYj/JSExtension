@@ -4,7 +4,8 @@
 
 >支持pod<br>
 
->>pod 'JSExtension'<br>
+>>1.pod 'JSExtension'<br>
+>>2.导入'JSUIkitExtension.h'头文件
 
 >包含内容<br>
 
