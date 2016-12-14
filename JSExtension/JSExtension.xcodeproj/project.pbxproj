@@ -13,11 +13,24 @@
 		F70047BC1E017A3500C57F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70047B41E017A3500C57F48 /* LaunchScreen.storyboard */; };
 		F70047BD1E017A3500C57F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70047B61E017A3500C57F48 /* Main.storyboard */; };
 		F70047BE1E017A3500C57F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047B81E017A3500C57F48 /* main.m */; };
+		F70047DB1E017A6500C57F48 /* JSDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047C11E017A6500C57F48 /* JSDateFormatter.m */; };
+		F70047DC1E017A6500C57F48 /* JSTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047C31E017A6500C57F48 /* JSTextLabel.m */; };
+		F70047DD1E017A6500C57F48 /* NSArray+JSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047C61E017A6500C57F48 /* NSArray+JSLog.m */; };
+		F70047DE1E017A6500C57F48 /* NSDate+JSIsThisYear.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047C81E017A6500C57F48 /* NSDate+JSIsThisYear.m */; };
+		F70047DF1E017A6500C57F48 /* NSObject+JSObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047CA1E017A6500C57F48 /* NSObject+JSObjc.m */; };
+		F70047E01E017A6500C57F48 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047CC1E017A6500C57F48 /* NSString+Emoji.m */; };
+		F70047E11E017A6500C57F48 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047CE1E017A6500C57F48 /* NSString+Hash.m */; };
+		F70047E21E017A6500C57F48 /* NSString+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D01E017A6500C57F48 /* NSString+JSExtension.m */; };
+		F70047E31E017A6500C57F48 /* UIButton+JSButtonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D21E017A6500C57F48 /* UIButton+JSButtonExtension.m */; };
+		F70047E41E017A6500C57F48 /* UIColor+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D41E017A6500C57F48 /* UIColor+JSExtension.m */; };
+		F70047E51E017A6500C57F48 /* UIImage+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D61E017A6500C57F48 /* UIImage+JSExtension.m */; };
+		F70047E61E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D81E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m */; };
+		F70047E71E017A6500C57F48 /* UIView+JSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047DA1E017A6500C57F48 /* UIView+JSFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F700478F1E01799D00C57F48 /* JSExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F70047A31E01799D00C57F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70047A31E01799D00C57F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		F70047AC1E017A3500C57F48 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F70047AD1E017A3500C57F48 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F70047B11E017A3500C57F48 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +39,33 @@
 		F70047B51E017A3500C57F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F70047B71E017A3500C57F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F70047B81E017A3500C57F48 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F70047C01E017A6500C57F48 /* JSDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDateFormatter.h; sourceTree = "<group>"; };
+		F70047C11E017A6500C57F48 /* JSDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDateFormatter.m; sourceTree = "<group>"; };
+		F70047C21E017A6500C57F48 /* JSTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTextLabel.h; sourceTree = "<group>"; };
+		F70047C31E017A6500C57F48 /* JSTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTextLabel.m; sourceTree = "<group>"; };
+		F70047C41E017A6500C57F48 /* JSUIkitExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUIkitExtension.h; sourceTree = "<group>"; };
+		F70047C51E017A6500C57F48 /* NSArray+JSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSLog.h"; sourceTree = "<group>"; };
+		F70047C61E017A6500C57F48 /* NSArray+JSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSLog.m"; sourceTree = "<group>"; };
+		F70047C71E017A6500C57F48 /* NSDate+JSIsThisYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JSIsThisYear.h"; sourceTree = "<group>"; };
+		F70047C81E017A6500C57F48 /* NSDate+JSIsThisYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JSIsThisYear.m"; sourceTree = "<group>"; };
+		F70047C91E017A6500C57F48 /* NSObject+JSObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSObjc.h"; sourceTree = "<group>"; };
+		F70047CA1E017A6500C57F48 /* NSObject+JSObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSObjc.m"; sourceTree = "<group>"; };
+		F70047CB1E017A6500C57F48 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		F70047CC1E017A6500C57F48 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		F70047CD1E017A6500C57F48 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		F70047CE1E017A6500C57F48 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		F70047CF1E017A6500C57F48 /* NSString+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSExtension.h"; sourceTree = "<group>"; };
+		F70047D01E017A6500C57F48 /* NSString+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSExtension.m"; sourceTree = "<group>"; };
+		F70047D11E017A6500C57F48 /* UIButton+JSButtonExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JSButtonExtension.h"; sourceTree = "<group>"; };
+		F70047D21E017A6500C57F48 /* UIButton+JSButtonExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JSButtonExtension.m"; sourceTree = "<group>"; };
+		F70047D31E017A6500C57F48 /* UIColor+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSExtension.h"; sourceTree = "<group>"; };
+		F70047D41E017A6500C57F48 /* UIColor+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSExtension.m"; sourceTree = "<group>"; };
+		F70047D51E017A6500C57F48 /* UIImage+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSExtension.h"; sourceTree = "<group>"; };
+		F70047D61E017A6500C57F48 /* UIImage+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSExtension.m"; sourceTree = "<group>"; };
+		F70047D71E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JSFullScreenPopGesture.h"; sourceTree = "<group>"; };
+		F70047D81E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JSFullScreenPopGesture.m"; sourceTree = "<group>"; };
+		F70047D91E017A6500C57F48 /* UIView+JSFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSFrame.h"; sourceTree = "<group>"; };
+		F70047DA1E017A6500C57F48 /* UIView+JSFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +98,8 @@
 		F70047911E01799D00C57F48 /* JSExtension */ = {
 			isa = PBXGroup;
 			children = (
+				F70047BF1E017A6500C57F48 /* UIKit+JSExtension */,
 				F70047A91E017A3500C57F48 /* Demo */,
-				F70047A31E01799D00C57F48 /* Info.plist */,
 			);
 			path = JSExtension;
 			sourceTree = "<group>";
@@ -109,6 +149,7 @@
 		F70047B01E017A3500C57F48 /* supportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				F70047A31E01799D00C57F48 /* Info.plist */,
 				F70047B11E017A3500C57F48 /* AppDelegate.h */,
 				F70047B21E017A3500C57F48 /* AppDelegate.m */,
 				F70047B31E017A3500C57F48 /* Assets.xcassets */,
@@ -117,6 +158,40 @@
 				F70047B81E017A3500C57F48 /* main.m */,
 			);
 			path = supportingFiles;
+			sourceTree = "<group>";
+		};
+		F70047BF1E017A6500C57F48 /* UIKit+JSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F70047C41E017A6500C57F48 /* JSUIkitExtension.h */,
+				F70047C01E017A6500C57F48 /* JSDateFormatter.h */,
+				F70047C11E017A6500C57F48 /* JSDateFormatter.m */,
+				F70047C21E017A6500C57F48 /* JSTextLabel.h */,
+				F70047C31E017A6500C57F48 /* JSTextLabel.m */,
+				F70047C51E017A6500C57F48 /* NSArray+JSLog.h */,
+				F70047C61E017A6500C57F48 /* NSArray+JSLog.m */,
+				F70047C71E017A6500C57F48 /* NSDate+JSIsThisYear.h */,
+				F70047C81E017A6500C57F48 /* NSDate+JSIsThisYear.m */,
+				F70047C91E017A6500C57F48 /* NSObject+JSObjc.h */,
+				F70047CA1E017A6500C57F48 /* NSObject+JSObjc.m */,
+				F70047CB1E017A6500C57F48 /* NSString+Emoji.h */,
+				F70047CC1E017A6500C57F48 /* NSString+Emoji.m */,
+				F70047CD1E017A6500C57F48 /* NSString+Hash.h */,
+				F70047CE1E017A6500C57F48 /* NSString+Hash.m */,
+				F70047CF1E017A6500C57F48 /* NSString+JSExtension.h */,
+				F70047D01E017A6500C57F48 /* NSString+JSExtension.m */,
+				F70047D11E017A6500C57F48 /* UIButton+JSButtonExtension.h */,
+				F70047D21E017A6500C57F48 /* UIButton+JSButtonExtension.m */,
+				F70047D31E017A6500C57F48 /* UIColor+JSExtension.h */,
+				F70047D41E017A6500C57F48 /* UIColor+JSExtension.m */,
+				F70047D51E017A6500C57F48 /* UIImage+JSExtension.h */,
+				F70047D61E017A6500C57F48 /* UIImage+JSExtension.m */,
+				F70047D71E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.h */,
+				F70047D81E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m */,
+				F70047D91E017A6500C57F48 /* UIView+JSFrame.h */,
+				F70047DA1E017A6500C57F48 /* UIView+JSFrame.m */,
+			);
+			path = "UIKit+JSExtension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,9 +265,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70047E01E017A6500C57F48 /* NSString+Emoji.m in Sources */,
+				F70047DD1E017A6500C57F48 /* NSArray+JSLog.m in Sources */,
+				F70047DC1E017A6500C57F48 /* JSTextLabel.m in Sources */,
+				F70047E11E017A6500C57F48 /* NSString+Hash.m in Sources */,
+				F70047DF1E017A6500C57F48 /* NSObject+JSObjc.m in Sources */,
 				F70047BA1E017A3500C57F48 /* AppDelegate.m in Sources */,
+				F70047E51E017A6500C57F48 /* UIImage+JSExtension.m in Sources */,
+				F70047E71E017A6500C57F48 /* UIView+JSFrame.m in Sources */,
 				F70047BE1E017A3500C57F48 /* main.m in Sources */,
+				F70047E21E017A6500C57F48 /* NSString+JSExtension.m in Sources */,
 				F70047B91E017A3500C57F48 /* ViewController.m in Sources */,
+				F70047DE1E017A6500C57F48 /* NSDate+JSIsThisYear.m in Sources */,
+				F70047E31E017A6500C57F48 /* UIButton+JSButtonExtension.m in Sources */,
+				F70047DB1E017A6500C57F48 /* JSDateFormatter.m in Sources */,
+				F70047E41E017A6500C57F48 /* UIColor+JSExtension.m in Sources */,
+				F70047E61E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
