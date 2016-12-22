@@ -2,10 +2,12 @@
 
 # 项目开发中的工具[ShenYj](https://github.com/ShenYj)
 
-## 支持>pod<br>
+## 支持pod<br>
 
+```
 1.pod 'JSExtension'<br>
 2.导入'JSUIkitExtension.h'头文件
+```
 
 ## 包含内容<br>
 
