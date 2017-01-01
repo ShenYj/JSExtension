@@ -5,7 +5,7 @@
 ## 支持pod<br>
 
 ```
-1.pod 'JSExtension'<br>
+1.pod 'JSExtension'
 2.导入'JSUIkitExtension.h'头文件
 ```
 
