@@ -11,11 +11,11 @@
 @interface NSDate (JSIsThisYear)
 
 /**
- *判断date是否是今年
+ * 判断date是否是今年
  */
 - (BOOL)isThisYear;
 /**
- *将NSDate类型对象转换为特定格式的字符串
+ * 将NSDate类型对象转换为特定格式的字符串
  */
 - (NSString *)dateformatterString:(NSString *)dateformatter;
 
