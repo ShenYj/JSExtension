@@ -26,6 +26,7 @@
 		F70047E51E017A6500C57F48 /* UIImage+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D61E017A6500C57F48 /* UIImage+JSExtension.m */; };
 		F70047E61E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D81E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m */; };
 		F70047E71E017A6500C57F48 /* UIView+JSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047DA1E017A6500C57F48 /* UIView+JSFrame.m */; };
+		F7F40CC21E7669CB003D134F /* NSString+JSFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F40CC11E7669CB003D134F /* NSString+JSFileSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,8 @@
 		F70047D81E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JSFullScreenPopGesture.m"; sourceTree = "<group>"; };
 		F70047D91E017A6500C57F48 /* UIView+JSFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSFrame.h"; sourceTree = "<group>"; };
 		F70047DA1E017A6500C57F48 /* UIView+JSFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSFrame.m"; sourceTree = "<group>"; };
+		F7F40CC01E7669CB003D134F /* NSString+JSFileSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSFileSize.h"; sourceTree = "<group>"; };
+		F7F40CC11E7669CB003D134F /* NSString+JSFileSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSFileSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				F70047C41E017A6500C57F48 /* JSUIkitExtension.h */,
+				F7F40CC01E7669CB003D134F /* NSString+JSFileSize.h */,
+				F7F40CC11E7669CB003D134F /* NSString+JSFileSize.m */,
 				F70047C01E017A6500C57F48 /* JSDateFormatter.h */,
 				F70047C11E017A6500C57F48 /* JSDateFormatter.m */,
 				F70047C21E017A6500C57F48 /* JSTextLabel.h */,
@@ -279,6 +284,7 @@
 				F70047DE1E017A6500C57F48 /* NSDate+JSIsThisYear.m in Sources */,
 				F70047E31E017A6500C57F48 /* UIButton+JSButtonExtension.m in Sources */,
 				F70047DB1E017A6500C57F48 /* JSDateFormatter.m in Sources */,
+				F7F40CC21E7669CB003D134F /* NSString+JSFileSize.m in Sources */,
 				F70047E41E017A6500C57F48 /* UIColor+JSExtension.m in Sources */,
 				F70047E61E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m in Sources */,
 			);
@@ -431,6 +437,7 @@
 				F70047A81E01799D00C57F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

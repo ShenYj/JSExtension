@@ -17,6 +17,7 @@
 #import "UIImage+JSExtension.h"
 #import "UINavigationController+JSFullScreenPopGesture.h"
 #import "UIView+JSFrame.h"
+#import "NSString+JSFileSize.h"
 
 //#import "JSTextLabel.h"
 //#import "JSDateFormatter.h"
