@@ -2,6 +2,8 @@
 
 - 项目开发中的工具[ShenYj](https://github.com/ShenYj)
 
+## iOS 8.0 + <br>
+
 ## 支持pod<br>
 
 ```
@@ -19,6 +21,7 @@
 - [x] 'UINavigationController+JSFullScreenPopGesture.h' --> 运行时全屏返回手势<br>
 - [x] 'UIView+JSFrame.h' -->  添加Frame的:x,y,width,height属性 <br>
 - [x] 'UIColor+JSExtension.h' --> RGB颜色、随机色以及十六进制设置颜色 <br>
+- [x] 'NSString+JSFileSize.h'-->获取文件或文件夹总大小(新增)<br>
 
 ## 默认未导入的类:
 
