@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "JSExtension"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "项目开发中的工具"
   s.homepage     = "https://github.com/ShenYj/JSExtension"
   s.license      = "MIT"
