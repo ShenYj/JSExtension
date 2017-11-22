@@ -1,6 +1,5 @@
 //
 //  UIImage+JSExtension.h
-//  HeaderViewScaleByDragging
 //
 //  Created by ShenYj on 16/8/17.
 //  Copyright © 2016年 ___ShenYJ___. All rights reserved.
@@ -9,7 +8,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (Color)
-
 
 /**
  *  高性能绘制圆角图片
@@ -27,8 +25,6 @@
  *  @param completion 完成回调,返回固定尺寸图片
  */
 - (void)js_ImageWithSize:(CGSize)size completion:(void(^)(UIImage *img))completion;
-
-
 
 /**
  *  创建纯色图片
@@ -69,8 +65,6 @@
  *  @return 带圆环的圆角图片
  */
 + (UIImage *)js_imageWithOriginalImage:(UIImage *)originalImage withBorderColor:(UIColor *)borderColor withBorderWidth:(CGFloat)borderWidth;
-
-
 
 
 @end

@@ -1,6 +1,5 @@
 //
 //  UINavigationController+JSFullScreenPopGesture.h
-//  test
 //
 //  Created by ShenYj on 16/8/16.
 //  Copyright © 2016年 ___ShenYJ___. All rights reserved.

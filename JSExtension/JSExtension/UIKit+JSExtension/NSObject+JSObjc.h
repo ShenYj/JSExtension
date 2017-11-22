@@ -17,7 +17,6 @@
  */
 + (NSArray *)js_objProperties;
 
-
 /**
  *  打印类的所有属性
  *
