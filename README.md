@@ -43,6 +43,7 @@ And then import the header file in your target:
 - __UIView+JSFrame.h__ -->  添加Frame的:x,y,width,height属性 <br>
 - __UIColor+JSExtension.h__ --> RGB颜色、随机色以及十六进制设置颜色 <br>
 - __NSString+JSFileSize.h__-->获取文件或文件夹总大小(新增)<br>
+- __UIApplication+DeviceInfo.h__-->获取设备和应用信息(新增)<br>
 
 ## 默认未导入的类:
 
