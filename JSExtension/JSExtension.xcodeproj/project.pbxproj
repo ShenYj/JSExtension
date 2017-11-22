@@ -26,7 +26,6 @@
 		F70047E51E017A6500C57F48 /* UIImage+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D61E017A6500C57F48 /* UIImage+JSExtension.m */; };
 		F70047E61E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047D81E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m */; };
 		F70047E71E017A6500C57F48 /* UIView+JSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F70047DA1E017A6500C57F48 /* UIView+JSFrame.m */; };
-		F73118341EF3792600D4C646 /* JSAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F73118331EF3792600D4C646 /* JSAlertTool.m */; };
 		F7F40CC21E7669CB003D134F /* NSString+JSFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F40CC11E7669CB003D134F /* NSString+JSFileSize.m */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +67,6 @@
 		F70047D81E017A6500C57F48 /* UINavigationController+JSFullScreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JSFullScreenPopGesture.m"; sourceTree = "<group>"; };
 		F70047D91E017A6500C57F48 /* UIView+JSFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSFrame.h"; sourceTree = "<group>"; };
 		F70047DA1E017A6500C57F48 /* UIView+JSFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSFrame.m"; sourceTree = "<group>"; };
-		F73118321EF3792600D4C646 /* JSAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAlertTool.h; sourceTree = "<group>"; };
-		F73118331EF3792600D4C646 /* JSAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAlertTool.m; sourceTree = "<group>"; };
 		F7F40CC01E7669CB003D134F /* NSString+JSFileSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSFileSize.h"; sourceTree = "<group>"; };
 		F7F40CC11E7669CB003D134F /* NSString+JSFileSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSFileSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,8 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				F70047C41E017A6500C57F48 /* JSUIkitExtension.h */,
-				F73118321EF3792600D4C646 /* JSAlertTool.h */,
-				F73118331EF3792600D4C646 /* JSAlertTool.m */,
 				F7F40CC01E7669CB003D134F /* NSString+JSFileSize.h */,
 				F7F40CC11E7669CB003D134F /* NSString+JSFileSize.m */,
 				F70047C01E017A6500C57F48 /* JSDateFormatter.h */,
@@ -282,7 +277,6 @@
 				F70047DF1E017A6500C57F48 /* NSObject+JSObjc.m in Sources */,
 				F70047BA1E017A3500C57F48 /* AppDelegate.m in Sources */,
 				F70047E51E017A6500C57F48 /* UIImage+JSExtension.m in Sources */,
-				F73118341EF3792600D4C646 /* JSAlertTool.m in Sources */,
 				F70047E71E017A6500C57F48 /* UIView+JSFrame.m in Sources */,
 				F70047BE1E017A3500C57F48 /* main.m in Sources */,
 				F70047E21E017A6500C57F48 /* NSString+JSExtension.m in Sources */,
