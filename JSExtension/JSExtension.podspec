@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.author       = { "Ryan" => "shenyj4@51nb.com" }
   s.source       = { :git => "https://github.com/ShenYj/JSExtension.git", :tag => s.version }
-  s.source_files = "JSExtension", "JSExtension/JSExtension/**/*.{h,m}"
+  s.source_files = "JSExtension", "JSExtension/JSExtension/UIKit+JSExtension/**/*.{h,m}"
   s.requires_arc = true
 end
