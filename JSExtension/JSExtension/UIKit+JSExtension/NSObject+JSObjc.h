@@ -1,6 +1,5 @@
 //
 //  NSObject+JSObjc.h
-//  Demos
 //
 //  Created by ShenYj on 16/9/3.
 //  Copyright © 2016年 ___ShenYJ___. All rights reserved.

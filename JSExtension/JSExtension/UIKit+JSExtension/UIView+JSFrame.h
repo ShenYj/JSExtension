@@ -1,6 +1,5 @@
 //
 //  UIView+JSFrame.h
-//  彩票
 //
 //  Created by ShenYj on 16/5/13.
 //  Copyright © 2016年 ___ShenYJ___. All rights reserved.

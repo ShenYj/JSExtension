@@ -1,9 +1,8 @@
 //
 //  NSString+Hash.m
-//  01-数据安全
 //
-//  Created by 黄伟 on 14/11/12.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by ShenYj on 14/11/12.
+//  Copyright (c) 2014年 ShenYj. All rights reserved.
 //
 
 #import "NSString+Hash.h"
