@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		687BB6C71FC5598200B3F3E2 /* JSPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPrefixHeader.pch; sourceTree = "<group>"; };
 		F700478F1E01799D00C57F48 /* JSExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70047A31E01799D00C57F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		F70047AC1E017A3500C57F48 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -152,6 +153,7 @@
 		F70047B01E017A3500C57F48 /* supportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				687BB6C71FC5598200B3F3E2 /* JSPrefixHeader.pch */,
 				F70047A31E01799D00C57F48 /* Info.plist */,
 				F70047B11E017A3500C57F48 /* AppDelegate.h */,
 				F70047B21E017A3500C57F48 /* AppDelegate.m */,
